@@ -1,0 +1,29 @@
+{
+  "name": "mcp-serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_OPTIONS=\"--dns-result-order=ipv4first\" tsx watch src/server-web.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Francisco Jair",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "ollama": "^0.6.4",
+    "pdfkit": "^0.20.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "@types/pdfkit": "^0.17.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
